@@ -1,0 +1,42 @@
+    body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/050/280/646/small_2x/neon-frame-effect-robot-with-a-happy-expression-and-space-themed-decorations-on-black-background-free-video.jpg');
+    background-size: cover; 
+    background-position: auto;
+    background-repeat: no-repeat; 
+    color: #16DB65;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    }
+
+    .container {
+        background-color:rgba(6,20,15,0.7);
+        padding:20px;
+        margin-top:30px;
+        border-radius:35px;
+    }
+
+    .form-check-input {
+        width: 20px; 
+        height: 20px; 
+        border: 2px solid #058C42;
+        border-radius: 0;
+        background-color: #fff;
+        appearance: none;
+        position: relative;
+    }
+
+    .form-check-input:checked {
+            background-color: #058C42;
+            border-color: #40916c
+    }
+
+     .form-check-input:checked::after {
+            position: absolute;
+            top: 3px;
+            left: 6px;
+            width: 6px;
+            height: 12px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+    
